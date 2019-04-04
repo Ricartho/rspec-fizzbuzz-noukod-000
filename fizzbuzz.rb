@@ -7,7 +7,7 @@ def fizzbuzz(val)
     "FizzBuzz"
   elsif val % 5 == 0 
      "Buzz"
-  elsif val % 3 == 0
+  elsif val % 3 == 0 
      "Fizz"
   else
     nil
