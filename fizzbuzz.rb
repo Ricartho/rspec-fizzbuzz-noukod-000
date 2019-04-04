@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(val)
   #first test
-  newVal = 3 * 5
-  if val % 3 == 0 
-    "Fizz"
+  
+  if val % 5 == 0 && val % 3 == 0  
+    "FizzBuzz"
   elsif val % 5 == 0 
      "Buzz"
-  elsif val % 5 == 0 && val % 3 == 0 
-     "FizzBuzz"
+  elsif val % 3
+     "Fizz"
   end
   
 end
